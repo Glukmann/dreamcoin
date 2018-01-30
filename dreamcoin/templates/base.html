@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="ru">
-	{% load xendor_tags %}
+<html lang="en">
+
 	<head>
 		{% include 'include/head.html' %}
 	</head>
@@ -8,9 +8,25 @@
 
         {% include 'include/header.html' %}
 
-        <div class="container content">
+        {% include 'include/home_section.html' %}
+
+        {% include 'include/service_section.html' %}
+
+        {% include 'include/portfolio_section.html' %}
+
+        {% include 'include/about_section.html' %}
+
+        <div class="section secondary-section">
             {% block content %}{% endblock %}
         </div>
+
+        {% include 'include/client_section.html' %}
+
+        {% include 'include/price_section.html' %}
+
+        {% include 'include/news_section.html' %}
+
+        {% include 'include/contact_section.html' %}
 
 		{% include 'include/js.html' %}
 		{% block js %}{% endblock %}

@@ -1,23 +1,29 @@
-{% load xendor_tags %}
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="logo">
-                    <a href="/">
-                        <img src="{{ STATIC_URL }}img/logo.png" alt=""/>
-                    </a>
-                </div>
+{% load staticfiles %}
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a href="#" class="brand">
+                <img src="{%  static 'images/logo.png' %}" width="120" height="40" alt="Logo"/>
+                <!-- This is website logo -->
+            </a>
+            <!-- Navigation button, visible on small resolution -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <i class="icon-menu"></i>
+            </button>
+            <!-- Main navigation -->
+            <div class="nav-collapse collapse pull-right">
+                <ul class="nav" id="top-navigation">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <div class="col-lg-10">
-                {% menu "parent=MAIN" %}
-                <br class="clear">
-                <div class="gap-20"></div>
-                <div class="xendor text-right">
-                    <a href="http://xendor.ru" target="_blank">Xendor Fondation 8.0&rarr;</a>
-                </div>
-            </div>
+            <!-- End main navigation -->
         </div>
     </div>
-</header>
+</div>
 
