@@ -39,7 +39,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #05cdfe;
+    color: #3086ED;
     text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -54,7 +54,7 @@ p {
     color: #fff;
 }
 .navbar {
-    background: #181A1C;
+    background: #FBFDFA;
     margin-bottom:0;
     min-height:70px;
 }
@@ -65,14 +65,14 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #181A1C;
+    background: #FBFDFA;
     border-radius:0;
     filter: none;
     border: none;
     box-shadow: none;
 }
 .navbar .brand img {
-    width:120px;
+    width:180px;
     height:40px;
 }
 .navbar .nav > li > a {
@@ -86,13 +86,13 @@ p {
     box-shadow: none;
     font-size:15px;
     text-shadow: none;
-    color: #fff;
+    color: #181A1C;
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #05cdfe;
-    color: #fff;
-    background-color: #181A1C;
+    border: 1px solid #3086ED;
+    color: #3086ED;
+    background-color: #FBFDFA;
     transition: border-color 1s ease;
 }
 .nav-pills {
@@ -109,12 +109,12 @@ p {
     border: 1px solid #181A1C;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-    background: #181A1C;
-    color: #fff;
+    background: #FBFDFA;
+    color: #181A1C;
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius:0;
-    background:#05cdfe;
+    background:#3086ED;
     color: #000;
 }
 /******
@@ -176,7 +176,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #181A1C;
+    border-top: 30px solid #FBFDFA;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -214,25 +214,25 @@ p {
     line-height:auto;
 }
 .button:hover, .button:active{
-    background-color:#181A1C;
+    background-color:#FBFDFA;
     color:#fff;
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
-    background-color:#05cdfe;
+    background-color:#3086ED;
     color:#181A1C;
 }
 .button-sp:hover, .button-sp:active {
-    background-color:#181A1C;
-    color:#05cdfe;
+    background-color:#FBFDFA;
+    color:#3086ED;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
-    background-color:#181A1C;
-    color:#05cdfe;
+    background-color:#FBFDFA;
+    color:#3086ED;
 }
 .button-ps:hover, .button-ps:active {
-    background-color:#05cdfe;;
+    background-color:#3086ED;;
     color:#181A1C;
 }
 /*
@@ -248,7 +248,7 @@ p {
     border-radius:0;
     box-shadow:none;
     text-align:center;
-    background: #191a1c;
+    background: #FBFDFA;
 }
 .thumbnail .more {
     display:block;
@@ -283,7 +283,7 @@ p {
     z-index:4;
 }
 .thumbnail h3 {
-    color: #05cdfe;
+    color: #3086ED;
     margin-top:10px;
     font-size:20px;
 }
@@ -297,7 +297,7 @@ p {
     left:0;
     width:100%;
     height:100%;
-    background:#181A1C;
+    background:#FBFDFA;
     position:absolute;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -329,7 +329,7 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #05cdfe;
+    color: #3086ED;
 }
 .social li a:hover {
     color:#181A1C;
@@ -359,22 +359,22 @@ p {
     font-weight: lighter;
 }
 .primary-section {
-    background:#181A1C;
+    background:#FBFDFA;
 }
 .primary-section .triangle {
-    border-top: 40px solid #05cdfe;
+    border-top: 40px solid #3086ED;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #05cdfe;
+    color: #181A1C;
 }
 .primary-section h1 {
     color:#FFF;
 }
 .secondary-section {
-    background:#05cdfe;
+    background:#3086ED;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
@@ -385,8 +385,8 @@ p {
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #05cdfe;
+    background: #FBFDFA url(images/brand-bg.png) no-repeat center;
+    border-top:6px solid #3086ED;
 }
 .third-section .container {
     padding-top:20px;
@@ -394,7 +394,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #05cdfe;
+    color: #3086ED;
 }
 .sub-section {
     margin-top:30px;
@@ -424,7 +424,7 @@ p {
 ***************************************/
  .single-project {
     margin-bottom:30px;
-    background:#181A1C;
+    background:#FBFDFA;
 }
 .single-project img {
     width:100%;
@@ -438,7 +438,7 @@ p {
 .project-title {
     margin-top:15px;
     margin-bottom:15px;
-    border-bottom:1px solid #05cdfe;
+    border-bottom:1px solid #3086ED;
 }
 .project-title h3 {
     float:left;
@@ -447,11 +447,11 @@ p {
     width:80%;
 }
 .project-title .close {
-    color: #05cdfe;
+    color: #3086ED;
     margin-top:10px;
 }
 .project-info span, .project-title h3 {
-    color:#05cdfe;
+    color:#3086ED;
 }
 .project-info {
     font-weight:100;
@@ -491,7 +491,7 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #05cdfe;
+    background: #3086ED;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
@@ -532,7 +532,7 @@ p {
 .skills li .bar {
     height:40px;
     position:absolute;
-    background-color: #05cdfe;
+    background-color: #3086ED;
 }
 /*
 3.4 Clients
@@ -541,7 +541,7 @@ p {
     border:1px solid white;
 }
 .client-slider img:hover {
-    background-color:#05cdfe;
+    background-color:#3086ED;
 }
 .client-nav {
     list-style:none;
@@ -555,7 +555,7 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#05cdfe;
+    background:#3086ED;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -565,14 +565,14 @@ p {
 }
 .testimonial p {
     color:#181A1C;
-    background:#05cdfe;
+    background:#3086ED;
     padding:15px;
     margin:0;
 }
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #05cdfe;
+    border-top:10px solid #3086ED;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -621,10 +621,10 @@ p {
     text-align:center;
 }
 .price-column h3 {
-    background-color:#181A1C;
+    background-color:#FBFDFA;
     text-transform:uppercase;
     text-align: center;
-    color:#05cdfe;
+    color:#3086ED;
     padding:40px 0px;
     font-size: 36px;
     margin-top:0px;
@@ -687,7 +687,7 @@ p {
 3.7 Contact
 ********************************************************************/
  .contact {
-    background: #05cdfe;
+    background: #3086ED;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #181A1C;
@@ -775,7 +775,7 @@ p {
     font-size:17px;
 }
 .message-btn:hover {
-    background-color:#05cdfe;
+    background-color:#3086ED;
 }
 .contact-info {
     text-align:center;
@@ -804,7 +804,7 @@ p {
 }
 
 .footer a{
-    color:#05cdfe;
+    color:#3086ED;
 }
 
 .footer a:hover, .footer a:focus{
@@ -823,7 +823,7 @@ p {
     right:20px;
 	border:1px solid #fff;
     display:none;
-    background: #05cdfe;
+    background: #3086ED;
 }
 .scrollup > a {
     position:relative;
